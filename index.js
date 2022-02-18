@@ -195,6 +195,7 @@ export default class SlidingView extends Component<Props> {
       toValue,
       duration: animationDuration,
       delay,
+      useNativeDriver: false,
     }).start();
   };
 
